@@ -2,7 +2,7 @@ h1 {
   font-family: cursive;
   text-align: center;
   color: white;
-  font-size:130px;
+  font-size:100px;
 }
 h2 {
   font-family: cursive;
@@ -16,7 +16,6 @@ h3 {
   color: white;
   font-size:50px;
 }
-
 #cover {
   background-image: url('../img/Macbook.png');
   height: 100vh;
@@ -78,9 +77,7 @@ h3 {
 .home ul {
   margin-left:0;
   padding-left:0;
-  margin-top: -5%
-    
-    
+  margin-top: -5%   
 }
 
 .home li:hover {
@@ -95,7 +92,7 @@ h3 {
 }
 
 #httphistory.heading h1{
-  padding-top:20px;
+  padding-top:10px;
   margin-top:0px;
 }
 
@@ -106,9 +103,18 @@ h3 {
 
  .paragraph{
   font-family: 'Poppins', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
-  padding-left: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.content{
+  font-family: "Lucida" Grande, sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #httpbody {
@@ -163,12 +169,12 @@ img {
 }
 
 .pagination a.active {
-  background-color: yellow;
-  color: black;
+  background-color: black;
+  color: gold;
   border: 1px solid gray;
 }
 
-.pagination a:hover:not(.active) {background-color: snow;}
+.pagination a:hover:not(.active) {background-color: burlywood;}
 
 /*Table*/
 #statuscode {
@@ -194,4 +200,71 @@ img {
   text-align: center;
   background-color: green;
   color: white;
+}
+
+/*Text*/
+/*
+@function makelongshadow($length,$angle) {
+  $val: 0px 0px transparent;
+  @for $i from 1 through $length {
+    $val: #{$val}, #{$i}px #{$i*$angle}px #aaa;
+  }
+  @return $val;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,900');
+
+.txt {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 12vmin;
+  font-weight: 700;
+  animation: netflix_style 3.5s infinite;
+  outline: none;
+  white-space: nowrap;
+}
+
+@keyframes netflix_style {
+  0% {
+    text-shadow: makelongshadow(100,1);
+    color:#f3f3f3;
+    transform: scale(1.5, 1.5);
+  }
+  10% {
+    text-shadow: makelongshadow(100,1.5);
+    color:#f3f3f3;
+    transform: scale(1.5, 1.5);
+  }
+  15% {
+     color:#f3f3f3;
+  }
+  20% {    
+    color:#e90418;
+    text-shadow: none;
+    transform: scale(1.1, 1.1);
+  }
+  75% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;    
+    color:#e90418;
+    transform: scale(0.85, 0.9);
+  }
+  
+  100% {
+    opacity: 0;
+  }
+}
+*/
+
+/*member*/
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
 }
