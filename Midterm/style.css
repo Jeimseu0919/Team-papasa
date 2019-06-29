@@ -1,0 +1,118 @@
+#http {
+  background-color: #B23850;
+  height: 110vh;
+  padding-top: 5px;
+}
+
+#html {
+  background-color: #3B8BEB;
+  height: 110vh;
+  padding-top: 5px;
+}
+
+#css {
+  background-color: #2e8b57;
+  height: 110vh;
+  padding-top: 5px;
+}
+
+#about {
+  background-color: #8590AA;
+  height: 70vh;
+  padding-top: 300px;
+  line-height: 200px;
+}
+
+.home #about h1:hover {
+  transform: scale(1.2);
+  color; #f7f7f7;
+  -webkit-text-stroke: 1px yellow;
+}
+
+.home h1, li{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+.home ul li {
+  color: white;
+  list-style-type: none;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 4px;
+}
+
+.home ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.home ul {
+  margin-left:0;
+  padding-left:0;
+}
+
+.home li:hover {
+  transform: scale(1.2);
+  color; #f7f7f7;
+  -webkit-text-stroke: 1px yellow;
+}
+
+#htmlhistory.heading h1{
+  padding-top:20px;
+  margin-top:0px;
+}
+
+#httphistory.heading h1{
+  padding-top:20px;
+  margin-top:0px;
+}
+
+#csshistory.heading h1{
+  padding-top:20px;
+  margin-top:0px;
+}
+
+ .paragraph{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  color: white;
+  padding-left: 70px;
+}
+
+#httpbody {
+  background-color: #B23850;
+}
+
+#htmlbody {
+  background-color: #3B8BEB;
+}
+
+#cssbody {
+  background-color: #2e8b57;
+}
+#aboutbody{
+  background-color: #8590AA;
+}
+
+
+.heading {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 90px;
+  text-align: center;
+}
+
+img {
+	padding-top:2px;
+	padding-left:8px;
+	float: left;
+    padding: 10px;
+}
+
+#about a{
+  text-decoration: none;
+  color: white;
+}
