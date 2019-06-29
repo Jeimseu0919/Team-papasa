@@ -1,12 +1,24 @@
+h1 {
+  font-family: cursive;
+  text-align: center;
+  color: white;
+  font-size:130px;
+}
 h2 {
   font-family: cursive;
   text-align: center;
   color: white;
   font-size:80px;
 }
+h3 {
+  font-family: cursive;
+  text-align: left;
+  color: white;
+  font-size:50px;
+}
 
 #cover {
-  background-image: url('../img/Macbook.jpeg');
+  background-image: url('../img/Macbook.png');
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,14 +52,14 @@ h2 {
 .home #about h1:hover {
   transform: scale(1.2);
   color; #f7f7f7;
-  -webkit-text-stroke: 1px yellow;
+  -webkit-text-stroke: 1px yellow;  
 }
 
 .home h1, li{
   color: white;
   font-family: 'Poppins', sans-serif;
   font-size: 100px;
-  text-align: center;
+  text-align: center;    
 }
 
 .home ul li {
@@ -66,6 +78,9 @@ h2 {
 .home ul {
   margin-left:0;
   padding-left:0;
+  margin-top: -5%
+    
+    
 }
 
 .home li:hover {
@@ -111,7 +126,6 @@ h2 {
   background-color: #8590AA;
 }
 
-
 .heading {
   color: white;
   font-family: 'Poppins', sans-serif;
@@ -128,5 +142,56 @@ img {
 
 #about a{
   text-decoration: none;
+  color: white;
+}
+
+/*Pagination*/
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 6px 4px;
+  font-size: 20px;
+  background-color: #D3D3D3;
+}
+
+.pagination a.active {
+  background-color: yellow;
+  color: black;
+  border: 1px solid gray;
+}
+
+.pagination a:hover:not(.active) {background-color: snow;}
+
+/*Table*/
+#statuscode {
+   border-collapse: collapse;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#statuscode td, #customers th {
+  border: 1px solid blue;
+  padding: 8px;
+}
+
+#statuscode tr:nth-child(even){background-color: silver	;}
+#statuscode tr:nth-child(odd){background-color: silver	;}
+
+/*#statuscode tr:hover {background-color: transparent;}*/
+
+#statuscode th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: green;
   color: white;
 }
