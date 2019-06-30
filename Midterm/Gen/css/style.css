@@ -18,26 +18,23 @@ h3 {
 }
 #cover {
   background-image: url('../img/Macbook.png');
-  height: 100vh;
+  height: 120vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #http {
   background-color: #B23850;
-  height: 110vh;
   padding-top: 5px;
 }
 
 #html {
   background-color: #3B8BEB;
-  height: 110vh;
   padding-top: 5px;
 }
 
 #css {
   background-color: #2e8b57;
-  height: 110vh;
   padding-top: 5px;
 }
 
@@ -48,25 +45,51 @@ h3 {
   line-height: 200px;
 }
 
-.home #about h1:hover {
-  transform: scale(1.2);
-  color; #f7f7f7;
-  -webkit-text-stroke: 1px yellow;  
+.home ul li:last-child {
+	height: 30vh;
 }
 
-.home h1, li{
+.home #about h1:hover {
+  color; #f7f7f7;
+  -webkit-text-stroke: 1px yellow;
+}
+
+.home h1{
   color: white;
   font-family: 'Poppins', sans-serif;
   font-size: 100px;
-  text-align: center;    
+  text-align: center;
 }
 
-.home ul li {
+
+.home #http ul li {
   color: white;
   list-style-type: none;
-  text-align: center;
   font-size: 60px;
   padding-top: 4px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #B23850;
+}
+
+.home #html ul li {
+  color: white;
+  list-style-type: none;
+  font-size: 60px;
+  padding-top: 4px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #3B8BEB;
+}
+
+.home #css ul li {
+  color: white;
+  list-style-type: none;
+  font-size: 60px;
+  padding-top: 4px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #2e8b57;
 }
 
 .home ul li a {
@@ -81,7 +104,6 @@ h3 {
 }
 
 .home li:hover {
-  transform: scale(1.2);
   color; #f7f7f7;
   -webkit-text-stroke: 1px yellow;
 }
@@ -369,4 +391,8 @@ p1{
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+ul, body {
+  margin: 0;
 }
