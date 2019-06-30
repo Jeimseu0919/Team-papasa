@@ -25,16 +25,19 @@ h3 {
 
 #http {
   background-color: #B23850;
+  height: 110vh;
   padding-top: 5px;
 }
 
 #html {
   background-color: #3B8BEB;
+  height: 110vh;
   padding-top: 5px;
 }
 
 #css {
   background-color: #2e8b57;
+  height: 110vh;
   padding-top: 5px;
 }
 
@@ -45,127 +48,25 @@ h3 {
   line-height: 200px;
 }
 
-.home ul li:last-child {
-	height: 30vh;
-}
-
 .home #about h1:hover {
+  transform: scale(1.2);
   color; #f7f7f7;
-  -webkit-text-stroke: 1px yellow;
+  -webkit-text-stroke: 1px yellow;  
 }
 
-.home h1{
+.home h1, li{
   color: white;
   font-family: 'Poppins', sans-serif;
   font-size: 100px;
-  text-align: center;
+  text-align: center;    
 }
 
-
-.home #http ul li {
+.home ul li {
   color: white;
   list-style-type: none;
+  text-align: center;
   font-size: 60px;
   padding-top: 4px;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  background-color: #B23850;
-}
-
-.home #html ul li {
-  color: white;
-  list-style-type: none;
-  font-size: 60px;
-  padding-top: 4px;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  background-color: #3B8BEB;
-}
-
-.home #css ul li {
-  color: white;
-  list-style-type: none;
-  font-size: 60px;
-  padding-top: 4px;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  background-color: #2e8b57;
-}
-
-.home ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-.home ul {
-  margin-left:0;
-  padding-left:0;
-}
-
-.home li:hover {
-  color; #f7f7f7;
-  -webkit-text-stroke: 1px yellow;
-}
-
-#htmlhistory.heading h1{
-  padding-top:20px;
-  margin-top:0px;
-}
-
-#httphistory.heading h1{
-  padding-top:20px;
-  margin-top:0px;
-}
-
-#csshistory.heading h1{
-  padding-top:20px;
-  margin-top:0px;
-}
-
- .paragraph{
-  font-family: 'Poppins', sans-serif;
-  font-size: 40px;
-  color: white;
-  padding-left: 70px;
-}
-
-#httpbody {
-  background-color: #B23850;
-}
-
-#htmlbody {
-  background-color: #3B8BEB;
-}
-
-#cssbody {
-  background-color: #2e8b57;
-}
-#aboutbody{
-  background-color: #8590AA;
-}
-
-
-.heading {
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-size: 90px;
-  text-align: center;
-}
-
-img {
-  padding-top:2px;
-  padding-left:8px;
-  float: left;
-  padding: 10px;
-}
-
-#about a{
-  text-decoration: none;
-  color: white;
-}
-
-ul {
-  margin: 0;
 }
 
 .home ul li a {
@@ -180,6 +81,7 @@ ul {
 }
 
 .home li:hover {
+  transform: scale(1.2);
   color; #f7f7f7;
   -webkit-text-stroke: 1px yellow;
 }
@@ -213,6 +115,7 @@ ul {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+  text-align: justify;
 }
 
 #httpbody {
@@ -235,6 +138,10 @@ ul {
   font-family: 'Poppins', sans-serif;
   font-size: 90px;
   text-align: center;
+}
+
+.aligncenter {
+    text-align: center;
 }
 
 img {
@@ -359,12 +266,13 @@ img {
 .imgdropdown {
   position: relative;
   display: inline-block;
+    color: black;
 }
 
 .imgdropdown-content {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: transparent;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
@@ -438,6 +346,12 @@ mark {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+p1{
+  font-family: courier New;
+  text-align: center;
+  color: black;
+  font-size:40px;
+}
 
 .dropdown-content a {
   float: none;
@@ -455,8 +369,4 @@ mark {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-ul {
-  margin: 0;
 }
