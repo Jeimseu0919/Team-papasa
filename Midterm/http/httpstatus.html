@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<link href="../Gen/img/logo.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <head>
+    <title> HTTP Status Codes</title>
+	<link href="../Gen/css/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body id="httpbody">
+    <div id="httphistory" class="heading">
+	  <h1><a href="../index.html"><img src="../Gen/img/logo.png" width="192px" length="150px" alt="logo"></a> Status Codes</h1>
+        <hr>
+	</div>
+
+	<div class="paragraph">
+	  <h3><u>
+	    Status Code and Reason Phrase:
+	  </u></h3>
+        
+    <div style="overflow-x:auto;">
+
+<table id="statuscode">
+
+<!--For Information(1xx)-->    
+    <p>Information(1xx)</p>
+    <p>&rarr; request was received and the process is continuing.</p>
+ <tr>
+    <th>Status Code</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>Continue</td>
+  </tr>
+  <tr>
+    <td>101</td>
+    <td>Switching Protocol</td>
+  </tr>
+</table>
+        <br>
+<!--For Success(2xx)-->       
+<table id="statuscode">   
+    <p>Success(2xx)</p>
+    <p>&rarr; action was successfully received, understood, and accepted.</p>
+ <tr>
+    <th>Status Code</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>200</td>
+    <td>OK</td>
+  </tr>
+  <tr>
+    <td>201</td>
+    <td>Create</td>
+  </tr>
+  <tr>
+    <td>202</td>
+    <td>Accepted</td>
+  </tr>
+  <tr>
+    <td>203</td>
+    <td>Non-Authoritative Information</td>
+  </tr>
+  <tr>
+    <td>204</td>
+    <td>No Content</td>
+  </tr>
+  <tr>
+    <td>205</td>
+    <td> Reset Content</td>
+  </tr>
+  <tr>
+    <td>206</td>
+    <td>Partial Content</td>
+  </tr>
+</table>
+        <br>
+        
+<!--For Redirection(3xx)-->       
+<table id="statuscode">   
+    <p>Redirection(3xx)</p>
+    <p>&rarr; further action must be taken in order to complete the request.</p>
+ <tr>
+    <th>Status Code</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>300</td>
+    <td>Multiple Choices</td>
+  </tr>
+  <tr>
+    <td>301</td>
+    <td>Moved Permanently</td>
+  </tr>
+  <tr>
+    <td>302</td>
+    <td>Found</td>
+  </tr>
+  <tr>
+    <td>303</td>
+    <td> See Other</td>
+  </tr>
+  <tr>
+    <td>304</td>
+    <td>Not Modified</td>
+  </tr>
+  <tr>
+    <td>305</td>
+    <td>Use Proxy</td>
+  </tr>
+  <tr>
+    <td>306</td>
+    <td>(unused)</td>
+  </tr>
+  <tr>
+    <td>307</td>
+    <td>Temporary Redirect</td>
+  </tr>
+</table>
+        <br>
+        
+<!--For Client Error(4xx)-->       
+<table id="statuscode">   
+    <p>Client Error(4xx)</p>
+    <p>&rarr; request contains incorrect syntax or cannot be fulfilled.</p>
+ <tr>
+    <th>Status Code</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>400</td>
+    <td>Bad Request</td>
+  </tr>
+  <tr>
+    <td>401</td>
+    <td>Unauthorized</td>
+  </tr>
+  <tr>
+    <td>402</td>
+    <td>Payment Required</td>
+  </tr>
+  <tr>
+    <td>403</td>
+    <td>Forbidden</td>
+  </tr>
+  <tr>
+    <td>404</td>
+    <td>Not Found</td>
+  </tr>
+  <tr>
+    <td>405</td>
+    <td>Method Not Allowed</td>
+  </tr>
+  <tr>
+    <td>406</td>
+    <td>Not Accepted</td>
+  </tr>
+  <tr>
+    <td>407</td>
+    <td>Proxy Authentication Required</td>
+  </tr>
+  <tr>
+    <td>408</td>
+    <td>Request Time-out</td>
+  </tr>
+  <tr>
+    <td>409</td>
+    <td>Conflict</td>
+  </tr>
+  <tr>
+    <td>410</td>
+    <td>Gone</td>
+  </tr>
+  <tr>
+    <td>411</td>
+    <td>Length Required</td>
+  </tr>
+  <tr>
+    <td>412</td>
+    <td>Precondition Failed</td>
+  </tr>
+      <tr>
+    <td>413</td>
+    <td>Request Entity Too Large</td>
+  </tr>
+  <tr>
+    <td>414</td>
+    <td>Request-URI Too Large</td>
+  </tr>
+  <tr>
+    <td>415</td>
+    <td>Unsupported Media Type</td>
+  </tr>
+  <tr>
+    <td>416</td>
+    <td>Requested Range Not Satisfiable</td>
+  </tr>
+  <tr>
+    <td>417</td>
+    <td>Expectation Failed</td>
+  </tr>
+  <tr>
+    <td>426</td>
+    <td>Upgrade Required</td>
+  </tr>
+</table>
+        <br>
+        
+<!--For Server Error(5xx)-->       
+<table id="statuscode">   
+    <p>Server Error</p>
+    <p>&rarr; server failed to fulfill an apparently valid request.</p>
+ <tr>
+    <th>Status Code</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>500</td>
+    <td>Multiple Choices</td>
+  </tr>
+  <tr>
+    <td>501</td>
+    <td>Not Implemented</td>
+  </tr>
+  <tr>
+    <td>502</td>
+    <td>Not Implemented</td>
+  </tr>
+  <tr>
+    <td>503</td>
+    <td>Service</td>
+  </tr>
+  <tr>
+    <td>504</td>
+    <td>Service Unavailable</td>
+  </tr>
+  <tr>
+    <td>505</td>
+    <td>Gateway Time-out</td>
+  </tr>
+  <tr>
+    <td>506</td>
+    <td>HTTP Version Not Supported</td>
+  </tr>
+</table>
+        <br>
+</div>
+        
+<div class="pagination">
+  <a href="httpresponsem.html">&laquo;</a>
+  <a href="httphistory.html">History</a>
+  <a href="httpfundamentals.html" >Fundamentals</a>
+  <a href="httpfunctionalities.html">Functionalities</a>
+  <a href="httprequestm.html" >Request Methods</a>
+  <a href="httprequestmessage.html">Request Message</a>
+  <a href="httpresponsem.html">Response Message</a>
+  <a href="httpstatus.html" class = "active">Status Codes</a>
+  <a href="#">&raquo;</a>
+</div>
+	</div>
+  </body>
+</html>
