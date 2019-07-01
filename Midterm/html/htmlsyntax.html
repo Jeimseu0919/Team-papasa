@@ -35,156 +35,70 @@
 <br>    
 <div class="navbar">
   <div class="dropdown">
-    <button class="dropbtn">Document Structure Tags 
+    <button class="dropbtn">Attributes & Values
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <p1>Document Structure Tags</p1>
-        <a>Web pages have two basic containers: the head and the body:</a>
-        <a>&nbsp; &nbsp; &#x25CB; The head tag, which contains information, or metadata, about the web page, such as a title for the page, javascripts, styles (CSS), meta information, and more. Whatever is inside the head tag does not display on the web page itself.</a>
-        <a>&nbsp; &nbsp; &#x25CB; The body tag, containing the content that actually displays in a browser</a>
-            <div class="imgdropdown">
-              <span>&#x25FE; <u>Example</u></span>
-              <div class="imgdropdown-content">
-              <p><img src="../Gen/img/code/html/1.png" width="820%" length="800%"></p>
-              </div>
-        </div>
+      <p1>ATTRIBUTES</p1>
+        <a>Attributes are added to simple HTML tags that change how that tag behaves. Most tags have <b>default attributes</b>, but attributes can alter those. For example, the tag that produces a horizontal rule, <b>< hr / ></b>, produces a line that looks like this:</a>
+        <hr>
+        <a>Its default is to be centered, extend across 100% of the available width, and be one pixel thick. But adding an attribute, such as "height," which affects thickness, or "width," in addition to a value, a numerical quantity or percentage, will change its appearance, e.g.,</a>
+        <a>Example:</a>
+        <a><b>< hr width="50%" align="left" / ></b>&nbsp;produces this horizontal line:</a>
+        <a>&nbsp; &nbsp; &#x25CB; A space must be entered as <b>(& n b s p ;)</b></a>
+        <a><b>Output:</b></a>
+        <hr width="50%" align="left"/>
+        <br>
+        <p1>VALUES</p1>
+        <a>Specific values are placed <b>in quotation marks following the attribute.</b> A value can be a specific size, color, font face, etc. Attributes and values can be applied to tags such as < font >, < img > (e.g., image height and width), < p > and many others, for example:</a>
+        <a>&#x25CB; < font color="blue" > produces red text.</a>
+        <a>&nbsp; &nbsp; <b>Output:</b> <font color="blue"> produces red text.</a>
+        <a>&#x25CB; < font size="+2"> doubles the size of the default text.</a>
+        <a>&nbsp; &nbsp; <b>Output:</b><font size="+2"> doubles the size of the default text.</a>
     </div>
   </div> 
 </div>
 <br>
 <div class="navbar">
   <div class="dropdown">
-    <button class="dropbtn">Page Structure Tags 
+    <button class="dropbtn">Structured text 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-       <p1>Page Structure Tags</p1>
-        <a>&nbsp; &nbsp; &#x25CB;paragraph: starts a new line with an empty line inserted</a>
-        <a>&nbsp; &nbsp;&#x25CB;line break: starts a new line with no extra line inserted; a "self-closing" tag</a>
-        <a>Also (for use with CSS, or cascading stylesheets):</a>
-        <a>&nbsp; &nbsp; &#x25CB;division: enables you do designate sections of text for styling; will insert an extra line</a>
-        <a>&nbsp; &nbsp;&#x25CB;span: enables you to designate sections of text for styling without inserting any extra space.</a>
-            <div class="imgdropdown">
-              <span>&#x25FE; <u>Example</u></span>
-              <div class="imgdropdown-content">
-              <p><img src="../Gen/img/code/html/2.png" width="820%" length="800%"></p>
-              </div>
-            </div>
+        <a>&#x25A0; Phrase elements (em, strong, dfn, code, samp, kbd, var, cite, abbr, acronym)</a>
+        <a>&#x25A0; Quotations (blockquote, q)</a>
+        <a>&#x25A0; Subscripts and superscripts (sub, sup)</a>
+         <a>&#x25A0; Preformatted texts (pre)</a>
+        <hr>
+        <a>In summary, here's the syntax of a typical HTML expression:</a>
+        <a><center><b>< tag attribute="value" ></b></center></a>
+        <a><b>Example:</b></a>
+        
+            <a><center><b>< font size="+2" color="blue" ></b></center></a>
+            <a><center><b>font is the tag</b></center></a>
+            <a><center><b>size and color are attributes</b></center></a>
+              <a><center><b>"+2" and "blue" are values.</b></center></a>  
+        <a>And of course you must close the tag when you want those style characteristics to end, e.g.:</a>
+            <a><center><b>< font size="+2" color="Blue" >This is big BLUE text.< / font ></b></center></a>
+       <a><b>Output:</b></a>
+                <center><font size="+2" color="Blue">This is big BLUE text.</font></center>
+        <a>Size values can be expressed as either relative (percentage, proportion) or absolute (a specific numerical value). In the example above, the "+2" means the font should appear at twice the size of the default.</a>
     </div>
   </div> 
-</div>      
-            
-<br>    
-<div class="navbar">
-  <div class="dropdown">
-    <button class="dropbtn">Alignment 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-       <p1>Alignment</p1>
-        <a>&#x25CB;centers text and images</a>
-        <a>&#x25CB;indents text from the left margin</a>
-            <div class="imgdropdown">
-              <span>&#x25FE; <u>Example</u></span>
-              <div class="imgdropdown-content">
-              <p><img src="../Gen/img/code/html/3.png" width="820%" length="800%"></p>
-              </div>
-            </div>
-    </div>
-  </div> 
-</div>                 
-<br>       
-            
-<div class="navbar">
-  <div class="dropdown">
-    <button class="dropbtn">Headings
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-       <p1>Headings</p1>
-        <a>If you want to divide your web page into clearly labeled sections, you might use a heading tag <b>(e.g., h1, h2, etc.)</b> By default, heading tags bold the text, begin on a new line and leave a space above and below. The headings on this page are h3.</a>
-            <div class="imgdropdown">
-              <span>&#x25FE; <u>Example</u></span>
-              <div class="imgdropdown-content">
-              <p><img src="../Gen/img/code/html/4.png" width="820%" length="800%"></p>
-              </div>
-            </div>
-    </div>
-  </div> 
-</div>                 
-<br>       
-            
-<div class="navbar">
-  <div class="dropdown">
-    <button class="dropbtn">Horizontal Rule
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-       <p1>Horizontal Rule</p1>
-        <a>You can also separate sections with a horizontal line, as you see above, by using the <b>hr</b>  tag.</a>
-        <a>Because nothing is contained within it, <b>hr</b> is a self-closing tag. Best practice is to include the forward slash after the "hr," but most web browsers will display normally if you forget.</a>
-            <div class="imgdropdown">
-              <span>&#x25FE; <u>Example</u></span>
-              <div class="imgdropdown-content">
-              <p><img src="../Gen/img/code/html/5.png" width="820%" length="800%"></p>
-              </div>
-            </div>
-    </div>
-  </div> 
-</div>               
-<br>  
-            
-<div class="navbar">
-  <div class="dropdown">
-    <button class="dropbtn">Commenting
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-       <p1>Page Commenting Tags</p1>
-        <a>&#x25CB;Sometimes you may need to add comments within the html -- notes to yourself or to another person who manages the web site -- that should not be publicly displayed.</a>
-        <a>&#x25CB;Begin with a left angle bracket, followed by an exclamation point and two dashes. Enter the note, then close with two dashes and a right angle bracket.</a>
-            <div class="imgdropdown">
-              <span>&#x25FE; <u>Example</u></span>
-              <div class="imgdropdown-content">
-              <p><img src="../Gen/img/code/html/6.png" width="820%" length="800%"></p>
-              </div>
-            </div>
-    </div>
-  </div> 
-</div>               
-<br>       
-    <div class="navbar">
-  <div class="dropdown">
-    <button class="dropbtn">OUTPUT
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-    <img src="../Gen/img/code/html/7.png" width="98.5%" length="100%">
-            <div class="imgdropdown">
-              <span>&#x25FE; <u>See the code</u></span>
-              <div class="imgdropdown-content">
-              <p><img src="../Gen/img/code/html/6.png" width="820%" length="800%"></p>
-              </div>
-            </div>
-    </div>
-  </div> 
-</div>          
+</div>
+<br> 
+                
 </div>
     <!--Paganition-->
 <div class="pagination">
-  <a href="#">&laquo;</a>
+  <a href="../html/htmlStructure.html" >&laquo;</a>
   <a href="../html/htmlhistory.html" >History</a>
   <a href="../html/htmlStructure.html" >HTML Structure</a>
   <a href="../html/htmlsyntax.html" class="active">Syntax Tag</a>
-  <a href="#">4</a>
-  <a href="#">5</a>
-  <a href="#">6</a>
-  <a href="#">7</a>
-  <a href="#">8</a>
-  <a href="#">9</a>
-  <a href="#">10</a>
-  <a href="#">&raquo;</a>
+  <a href="../html/htmlstyle.html">Styling Tag</a>
+  <a href="../html/htmllink.html">Links & Images</a>
+  <a href="../html/htmlxml.html">XHTML</a>
+  <a href="../html/htmlstyle.html">&raquo;</a>
 </div>
       </div>
   </body>
