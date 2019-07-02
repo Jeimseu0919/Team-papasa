@@ -1,0 +1,414 @@
+/*Made By: James Baybayan*/
+h1 {
+  font-family: cursive;
+  text-align: center;
+  color: white;
+  font-size:100px;
+}
+
+/*Made By: James Baybayan*/
+h2 {
+  font-family: cursive;
+  text-align: center;
+  color: white;
+  font-size:80px;
+}
+
+/*Made By: James Baybayan*/
+h3 {
+  font-family: cursive;
+  text-align: left;
+  color: white;
+  font-size:50px;
+  margin-left: 40px;
+}
+
+/*Made By: James Baybayan*/
+h4 {
+  font-family: cursive;
+  color: white;
+  font-size:30px;
+  margin-left: 40px;
+}
+/*Made By: James Baybayan*/
+#cover {
+  background-image: url('../img/Macbook.png');
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#http {
+  background-color: #B23850;
+  padding-top: 5px;
+}
+
+#html {
+  background-color: #3B8BEB;
+  padding-top: 5px;
+}
+
+#css {
+  background-color: #2e8b57;
+  padding-top: 5px;
+}
+
+#about {
+  background-color: #8590AA;
+  height: 70vh;
+  padding-top: 300px;
+  line-height: 200px;
+}
+
+.home ul li:last-child {
+	height: 30vh;
+}
+
+.home #about h1:hover {
+  color; #f7f7f7;
+  -webkit-text-stroke: 1px yellow;
+}
+
+.home h1{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+
+.home #http ul li {
+  color: white;
+  list-style-type: none;
+  font-size: 60px;
+  padding-top: 4px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #B23850;
+}
+
+.home #html ul li {
+  color: white;
+  list-style-type: none;
+  font-size: 60px;
+  padding-top: 4px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #3B8BEB;
+}
+
+.home #css ul li {
+  color: white;
+  list-style-type: none;
+  font-size: 60px;
+  padding-top: 4px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #2e8b57;
+}
+
+.home ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.home ul {
+  margin-left:0;
+  padding-left:0;
+  margin-top: -5%   
+}
+
+.home li:hover {
+  color; #f7f7f7;
+  -webkit-text-stroke: 1px yellow;
+}
+
+#htmlhistory.heading h1{
+  padding-top:20px;
+  margin-top:0px;
+}
+
+#httphistory.heading h1{
+  padding-top:10px;
+  margin-top:0px;
+}
+
+#csshistory.heading h1{
+  padding-top:20px;
+  margin-top:0px;
+}
+
+ .paragraph{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.content{
+  font-family: "Lucida" Grande, sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+#httpbody {
+  background-color: #B23850;
+}
+
+#htmlbody {
+  background-color: #3B8BEB;
+}
+
+#cssbody {
+  background-color: #2e8b57;
+}
+#aboutbody{
+  background-color: #8590AA;
+}
+
+.heading {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 90px;
+  text-align: center;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+/*Made By: James Baybayan*/
+img {
+	padding-top:2px;
+	padding-left:8px;
+	float: left;
+    padding: 10px;
+}
+
+#about a{
+  text-decoration: none;
+  color: white;
+}
+
+/*Made By: James Baybayan*/
+/*Pagination*/
+.pagination {
+  display: inline-block;
+}
+
+/*Made By: James Baybayan*/
+.pagination a {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 6px 4px;
+  font-size: 20px;
+  background-color: #D3D3D3;
+}
+
+/*Made By: James Baybayan*/
+.pagination a.active {
+  background-color: black;
+  color: gold;
+  border: 1px solid gray;
+}
+
+/*Made By: James Baybayan*/
+.pagination a:hover:not(.active) {background-color: burlywood;}
+
+/*Made By: James Baybayan*/
+/*Table*/
+#statuscode {
+   border-collapse: collapse;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/*Made By: James Baybayan*/
+#statuscode td, #customers th {
+  border: 1px solid blue;
+  padding: 8px;
+}
+
+/*Made By: James Baybayan*/
+#statuscode tr:nth-child(even){background-color: silver	;}
+#statuscode tr:nth-child(odd){background-color: silver	;}
+
+/*#statuscode tr:hover {background-color: transparent;}*/
+
+/*Made By: James Baybayan*/
+#statuscode th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: green;
+  color: white;
+}
+
+/*Made By: James Baybayan*/
+/*Img*/
+.imgdropdown {
+  position: relative;
+  display: inline-block;
+    color: black;
+}
+
+/*Made By: James Baybayan*/
+.imgdropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+/*Made By: James Baybayan*/
+.imgdropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Made By: James Baybayan*/
+.imgdropdown:hover .imgdropdown-content {
+  display: block;
+}
+
+/*Made By: James Baybayan*/
+/*highlight*/
+mark { 
+  background-color: white;
+  color: black;
+}
+
+/*Made By: James Baybayan*/
+/*member*/
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+/*Made By: James Baybayan*/
+/*DropNavigation*/
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/*Made By: James Baybayan*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*Made By: James Baybayan*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/*Made By: James Baybayan And Ragae Laroya*/
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/*Made By: James Baybayan And Ragae Laroya*/
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+
+/*Made By: James Baybayan And Ragae Laroya*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 93.5%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/*Made By: James Baybayan And Ragae Laroya*/
+p1{
+  font-family: courier New;
+  text-align: center;
+  color: black;
+  font-size:40px;
+}
+
+/*Made By: James Baybayan And Ragae Laroya*/
+.dropdown-content a {
+  float: none;
+  color: black;
+  font-size: 20px;     
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/*Made By: James Baybayan And Ragae Laroya*/
+.dropdown-content a:hover {
+  background-color: transparent;
+}
+
+/*Made By: James Baybayan And Ragae Laroya*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Made By: James Baybayan And Ragae Laroya*/
+ul, body {
+  margin: 0;
+}
+
+/*Made By: James Baybayan */
+table {
+    margin-left: 50px;
+    width: 80%;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*Made By: James Baybayan */
+th {
+    height: 50px;
+    background-color: aquamarine;
+}
+/*Made By: James Baybayan */
+table, th, td {
+        border: 2px solid blue;
+}
+
+/*Made By: James Baybayan */
+#boxmodel{
+   display: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

@@ -1,0 +1,78 @@
+/* Made by: Yeza Salazar*/
+#aboutbody{
+  background-color: #8590AA;
+}
+h1 {
+  font-family: cursive;
+  text-align: center;
+  color: white;
+  font-size:100px;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.membercolumn {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .membercolumn {
+    width: 100%;
+    display: block;
+  }
+}
+
+.membercard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.membercontainer {
+  padding: 0 16px;
+  font-size: 30px;
+  color: black;
+}
+
+.membercontainer::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.membertitle {
+  color: #0000FF;
+  font-size: 30px;
+}
+
+.memberbutton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.memberbutton:hover {
+  background-color: #555;
+}
+
+.memberfooter {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 20%;
+   background-color: blue;
+   color: white;
+   text-align: center;
+}
