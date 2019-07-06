@@ -1,0 +1,125 @@
+Topic: JavaScript
+Category: Acronyms
+Questions:
+1. IIFE - JavaScript design patter that creates a lexical scope
+2. JSON - human-readable data format for interchanging data
+3. MEAN - JavaScript web stack for creating dynamic websites and web applications
+4. OOP - programming paradigm 
+5. AJAX - web programming technique in JavaScript
+6. JS - a front end scripting language
+7. API - allows two toold to connect with each other
+8. CMS - an application that allows managing of online content without coding.
+9. GUI - the interface of a web page.
+10. NS - the company creditted for creating JavaScript
+
+Answers: 
+1. Immediately Invoked Function Expression 
+2. JavaScript Object Notation
+3. Mongo Express Angular Node
+4. Object Oriented Programming
+5. Asynchronous JavaScript And XML
+6. JavaScript
+7. Application Programming Interface
+8. Content Management System
+9. Graphical User Interface
+10. NetScape
+
+Category: True or False
+Questions: 
+1. The external JavaScript file must contain the <script tag>
+2. Number("1") - 1 == 0;
+3. (true + false) > 2 + true;
+4. String('Hello') === 'Hello';
+5. "This is a string" instanceof String;
+6. JavaScript is single threaded
+7. Java is the same with JavaScript
+8. JavaScript is not supported by all modern web browsers
+9. Arrays and objects can be created in Javascript
+10. JavaScript support regular expressions 
+
+Answers:
+1. true
+2. true
+3. false
+4. true
+5. false
+6. true
+7. false
+8. false
+9. true
+10. true
+
+Category: Multiple Choice 
+Questions: (Capital letter is the answer)                                               
+1. Inside which HTML element do we put the JavaScript
+A. <script> b. <javascript> c.<scripting>
+2. Where is the right place to insert a JavaScript>
+a. <body> section only b. <head> section only C. a and b
+3. What is the correct syntax for referring to an external script call love.js?
+a. <script href="love.js">  b. <script name="love.js">  C. <script src="love.js">
+4. How do you write "Hi" in an alert box?
+a. msgBox("Hi");   B. alert("Hi");  c.alertBox("Hi");
+5. How do you create a function in JavaScript?
+a. function = myFunction()  b. function:myFunction() C. function myFunction
+6. How do you call a function named "myFunction"?
+A. myFunction() b. call function myFunction() c. call myFunction()
+7. What is the correct syntax for a while loop?
+A. while (i<=4) b. while(i<=4; i++) c. while i=4 to 10
+8. What is the correct syntax for a for loop?
+a. for(i<=9; i++) B. for (i=0;i<=9; i++) c. for i to 9
+9. How do you add comments in JavaScript?
+A. //comment b. *comment c. <!--comment-->
+10. How can you detect the client's browser name>
+a. name.browser b. client.appName C.navigator.appName
+
+Category: Identification
+Questions:
+1. What is the tag for putting JavaScript?
+2. JavaScript was being developed under the name?
+3. Which company is creditted for the creation of JavaScript?
+4. What variable cannot be reassigned?
+5. What variable is function scoped? 
+6. What variable is block scoped?
+7. Who created JavaScript?
+8. What is the technique for creating asynchronous web applications?
+9. What is a lightweight format for storing and transporting data?
+10. Which language is a highlevel that conforms to the ECMAScript specification?
+
+Answers:
+1. <script>
+2. Mocha
+3. Netscape
+4. const
+5. var
+6. let
+7. Brendan Eich
+8. AJAX
+9. JSON
+10. JavaScript
+
+Category: Matching Type
+Questions:                                                         
+1. Variable that cannot be reassigned.
+2. Variable that is function scoped.
+3. Variable that is block scoped.
+4. Framework that can be used with any backend language.
+5. A cross-platform runtime library for running JS applications
+6. A JS library for building UI and maintained by Facebook
+7. A high-level language that conforms to the ECMAScript specification.
+8. A JS library designed to simplify HTML DOM tree traversal and manipulation.
+9. Set of web development techniques for creating asynchronous web applications
+10. Open-standard file format that uses human-readble text to transmit data objects.
+Choices
+A. Node.js
+B. React.js
+C. Angular.js
+D. let 
+E. var 
+F. const
+G. JavaScript
+H. AJAX
+I. JSON
+J. jQuery
+
+Answer: F E D C A B G J H I
+
